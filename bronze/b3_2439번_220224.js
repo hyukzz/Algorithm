@@ -23,9 +23,10 @@
 */
 
 // solution 1
-var fs = require('fs')
-var input = fs.readFileSync('/dev/stdin').toString().split(' ')
-var a = parseInt(input[0])
+const fs = require('fs')
+const file = process.platform === 'linux' ? '/dev/stdin' : './ex.txt'
+let input = fs.readFileSync(file).toString().split(' ')
+let a = parseInt(input[0])
 
 let res = ''
 for (let i = 0; i < a; i++) {
