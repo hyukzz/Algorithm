@@ -30,6 +30,7 @@ A+B - 5
 */
 
 //solution 1
+;```
 const fs = require('fs')
 const file = process.platform === 'linux' ? '/dev/stdin' : './ex.txt'
 let input = fs.readFileSync(file).toString().split('\n')
@@ -38,6 +39,7 @@ for (let i = 0; i < input.length - 2; i++) {
 	let num = input[i].split(' ')
 	console.log(parseInt(num[0]) + parseInt(num[1]))
 }
+```
 
 //solution 2
 const fs = require('fs')
