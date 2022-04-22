@@ -20,6 +20,7 @@ X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력한
 */
 
 //solution 1
+/*
 const fs = require('fs')
 const file = process.platform === 'linux' ? '/dev/stdin' : './ex.txt'
 let input = fs.readFileSync(file).toString().split('\n')
@@ -37,7 +38,7 @@ for (let i = 0; i <= N[0]; i++) {
 }
 
 console.log(ans.join(' '))
-
+*/
 //solution 2
 const fs = require('fs')
 const file = process.platform === 'linux' ? '/dev/stdin' : './ex.txt'
