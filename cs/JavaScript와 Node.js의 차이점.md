@@ -2,9 +2,10 @@
 
 - 모든 브라우저의 표준 프로그래밍 언어
 - 뼈대를 이루는 ECMAScript와 브라우저가 지원하는
-  클라이언트 사이드 Web API (DOM, BOM, Canvas, fetch 등)
-  가 아우러진 개념
+  클라이언트 사이드 Web API (DOM, BOM, Canvas, fetch 등)가 아우러진 개념
+
   ![](https://velog.velcdn.com/images/richard/post/8acf0465-da5e-4101-bff0-f059044ea454/image.png)
+
 - 웹 브라우저에서 동작하는 유일한 언어
 
 ## Node.js
