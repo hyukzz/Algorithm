@@ -44,10 +44,14 @@ SSR의 경우 HTTP 요청 시 클라이언트에서 Accept-Language 헤더와 �
 
 section은 보통 비슷한 특성의 컨텐츠를 담는 구역을 설정할 때 사용한다. 예를 들어, header, footer 사이에 sidebar나 content를 담는 식이다. 반면 article은 관련성이 없고 독립적인 내용들을 담을 때 사용한다. 예를 들어, section 안에서 서로 다른 기사들을 나열해야 할 때 각각의 기사를 article로 담는 식이다.
 
-## 6. HTML5 tag를 설명해 주세요. (D사 화상면접)
+## 6. HTML5 tag를 설명해 주세요.
 
 모든 HTML 문서는 <!DOCTYPE> 선언으로 시작한다. HTML5의 경우 `<!DOCTYPE html>` 이런 식으로 말이다. 이 선언은 태그는 아니지만 브라우저가 어떤 타입을 받아들여야 할지를 알려주는 정보이다.
 
 여러가지 태그가 있는데 주요한 것들 위주로 살펴보면, HTML5의 필수 태그는 html, head, body 등이 있다. html 태그는 HTML문서의 가장 최상단에 위치하는 태그이며, head 태그에는 style, script, title, link, meta 태그 등이 들어간다. body 태그는 HTML 문서의 내용이 들어간다.
 
 meta 태그에 대해서 조금 더 살펴보면, meta 태그는 head 부분에서 다른 태그들(script, style, link, title 등)로 나타낼 수 없는 메타데이터를 나타내는 태그를 의미한다. `<meta name="keywords" content="ABC">` 와 같이 검색 엔진을 위한 키워드나 `<meta name="description" content="OWEN">`과 같이 문서에 대한 설명 등에 사용된다. 화면에는 별다르게 표시되는 내용이 없지만, 검색 엔진이나 브라우저에서 읽힌다.
+
+## 7. Sementic tag에 대해서 설명해 주세요.
+
+시멘틱 태그는 HTML5에 도입이 되었는데, 개발자와 브라우저에게 의미있는 태그를 제공하는 것을 의미한다. 예를 들어 `<div>` 태그는 non-sementic 태그이고, `<table>`, `<article>`은 sementic 태그에 속한다. 시멘틱 태그는 태그만 보고 대략적으로 들어갈 내용을 유추할 수 있다는 장점이 있다. 헤더와 푸터를 설정할 때에도 과거에는 `<div id="header"></div>` 와 같이 했던 것을 이제는 `<header>` 하나로 깔끔하게 정리할 수 있다.
